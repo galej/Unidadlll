@@ -16,5 +16,17 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Estudiante student1 = new Estudiante();
+            var student2 = new Estudiante();
+
+            student1.Edad = 20;
+            student1.Nombre = "";
+            student1.Genero = "";
+            student1.numerocontrol = 20181001213; 
+        }
+
     }
 }
