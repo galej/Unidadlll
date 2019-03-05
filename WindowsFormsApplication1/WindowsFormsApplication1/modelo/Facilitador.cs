@@ -12,12 +12,4 @@ namespace WindowsFormsApplication1.modelo
         public byte edad { get; set; }
         public string profesion { get; set; }
     }
-     public void Revisar()
-    {
-
-    }
-     public void Explicar()
-    {
-
-    }
 }

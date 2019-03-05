@@ -12,8 +12,10 @@ namespace WindowsFormsApplication1.modelo
         private string _nombre;
         private byte _edad;
         private char _genero;
-        public byte edad {
-            get
+        public byte edad { get; set; }
+        public char genero { get; set; }
+        public string nombre { get; set; }
+        public long NumeroControl { get
             {
                 return this._numerocontrol;
             }
@@ -24,10 +26,6 @@ namespace WindowsFormsApplication1.modelo
                     this._numerocontrol = value;
                 }
             }
-        }
-        public char genero { get; set; }
-        public string nombre { get; set; }
-        public long NumeroControl { get; set; }
     }
 }
 
