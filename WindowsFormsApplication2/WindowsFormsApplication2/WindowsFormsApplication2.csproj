@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Campeonato de futbol\Arbitro.cs" />
+    <Compile Include="Campeonato de futbol\Campeonato.cs" />
     <Compile Include="Campeonato de futbol\Cancha.cs" />
     <Compile Include="Campeonato de futbol\Equipo.cs" />
+    <Compile Include="Campeonato de futbol\Jornada.cs" />
     <Compile Include="Campeonato de futbol\Jugador.cs" />
+    <Compile Include="Campeonato de futbol\Partido.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
