@@ -25,7 +25,18 @@ namespace WindowsFormsApplication2.Campeonato_de_futbol
             }
         }
         private List<Jornada> _jornada = new List<Jornada>();
-         public int Id { get; set; }
+         public int Id { get
+            {
+                return this._id;
+            }
+            set
+            {
+                if(value != 0)
+                {
+                    this._id = value;
+                }
+            }
+        }
         public string Nombre { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
