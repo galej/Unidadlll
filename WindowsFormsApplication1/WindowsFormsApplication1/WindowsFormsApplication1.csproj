@@ -53,6 +53,17 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="modelo\Carrera.cs" />
+    <Compile Include="modelo\Cinema\Cinema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modelo\Cinema\Cinema.Designer.cs">
+      <DependentUpon>Cinema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\Cinema\Cliente.cs" />
+    <Compile Include="modelo\Cinema\Empleado.cs" />
+    <Compile Include="modelo\Cinema\MockObjetos.cs" />
+    <Compile Include="modelo\Cinema\Persona.cs" />
+    <Compile Include="modelo\Cinema\Sala.cs" />
     <Compile Include="modelo\Estudiante.cs" />
     <Compile Include="modelo\Facilitador.cs" />
     <Compile Include="Program.cs" />
